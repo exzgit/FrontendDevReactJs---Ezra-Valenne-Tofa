@@ -8,4 +8,13 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  server: {
+    proxy: {
+      '/restaurants': {
+        target: 'https://erestaurant-backend.up.railway.app',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
 })

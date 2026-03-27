@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const API_URL = 'https://69c368d4b780a9ba03e6b5c9.mockapi.io/api/v1/restaurants';
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: '*' }));
 const PORT = process.env.PORT || 4000;
 
 function getCategories(data) {
