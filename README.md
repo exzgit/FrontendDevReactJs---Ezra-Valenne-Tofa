@@ -22,5 +22,6 @@ npm run dev
 ## Deployment
 
 - Project dihosting di: [Netlify](https://netlify.com)
+- Data menggunakan: [mockapi](mockapi.io)
 - Link project: https://erestaurantdemo.netlify.app
 - Link Github: https://github.com/exzgit/FrontendDevReactJs---Ezra-Valenne-Tofa
